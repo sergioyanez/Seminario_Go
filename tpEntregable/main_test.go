@@ -10,3 +10,7 @@ func TestMain(t *testing.T) {
 func TestNewCadenaEntrante(t *testing.T) {
 	model.NewCadenaEntrante("TX03ABC")
 }
+
+func TestgenerarResultado(t *testing.T) {
+	generarResultado("TX03ABC")
+}
