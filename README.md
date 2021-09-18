@@ -1,5 +1,6 @@
 # Seminario_Go
- ## TP Entregagable realizado en el seminario de Golang TUDAI 2021
+
+ ## TP Entregable realizado en el seminario de Golang TUDAI 2021
 
  Se crea una función que dada una cadena nde caracteres con un formato predeterminado genera una instancia de una estructura con los valores de los campos correspondientes.
  Para ello, al ingresar una cadena de caracteres la función generarResultado(cadena string), genera un objeto del tipo CadenaEntante que contiene un campo Value con el string ingresado.
