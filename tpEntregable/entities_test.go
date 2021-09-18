@@ -1,9 +1,9 @@
 package main
 
 import (
-	"testing"
-
 	"entregableGoTudai2021/model"
+	"github.com/stretchr/testify/assert"
+	"testing"
 )
 
 func TestChequeoDeCadena(t *testing.T) {
@@ -11,7 +11,5 @@ func TestChequeoDeCadena(t *testing.T) {
 	tipo := model.GetTipo(cadena.Value)
 	valor := model.GetValue(cadena.Value)
 	largo := model.GetLength(cadena.Value)
-	if !model.ChequeoDeCadena(tipo, valor, largo) {
-		t.Error("La cadena es invalida")
-	}
+	assert.Equal(t, model.ChequeoDeCadena(tipo, valor, largo), true, "La cadena es invalida")
 }
