@@ -15,16 +15,18 @@ func generarResultado(cad string) (model.Result, error) {
 	if model.ChequeoDeCadena(tipo, valor, largo) {
 
 		return model.NewResult(tipo, largo, valor), nil
+
 	}
 	return model.Result{}, errors.New("cadena Invalida")
 
 }
 
 func main() {
-	cadena := model.NewCadenaEntrante("TX03487")
+	cadena := model.NewCadenaEntrante("NN03487")
+
 	fmt.Println(model.GetTipo(cadena.Value))
 	fmt.Println(model.GetValue(cadena.Value))
 	fmt.Println(model.GetLength(cadena.Value))
-	fmt.Println(generarResultado("TX03487"))
+	fmt.Println(generarResultado("NN03487"))
 
 }
