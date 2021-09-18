@@ -10,6 +10,8 @@
  Se generaron chequeos, main_test.go y entities_test.go para las funciones implementadas asi como también outTesting y outTesting2 con sus respectivos html para comprobar el testeo en cadenas válidas e inválidas.
 
 
- Integrantes: Maria Elva Kehler Diviasi - Sergio Marcelo Yañez 
+ Integrantes:
+ 
+ Maria Elva Kehler Diviasi - Sergio Marcelo Yañez 
  
         DNI :      24914542                     23322529
